@@ -5,351 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP_29306 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)feec8af:29306}, udp: true}
-  - {name: JP_23622 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: JP_136383 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)5238088:136383}, udp: true}
-  - {name: JP_82897 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)12a00c4:82897}, udp: true}
-  - {name: JP_73362 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
-  - {name: JP_123597 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)8d242c5:123597}, udp: true}
-  - {name: JP_30513 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)ff5c0fb:30513}, udp: true}
-  - {name: JP_30743 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f478f13:54448}, udp: true}
-  - {name: JP_82929 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)af8f3e6:82919}, udp: true}
-  - {name: JP_58996 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
-  - {name: JP_16569 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)df1fab2:16569}, udp: true}
-  - {name: JP_6193 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: JP_54080 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)5318442:54080}, udp: true}
-  - {name: JP_65870 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
-  - {name: JP_120404 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4fda908:120404}, udp: true}
-  - {name: JP_36403 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a4a09ce:36403}, udp: true}
-  - {name: JP_138218 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: JP_145794 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
-  - {name: JP_31859 @WangCai_1, server: 117.50.106.86, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
-  - {name: JP_82897 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)12a00c4:82897}, udp: true}
-  - {name: JP_29306 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)feec8af:29306}, udp: true}
-  - {name: JP_73362 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
-  - {name: JP_145794 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
-  - {name: JP_130032 @WangCai_1, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)9eb64b8:130032}, udp: true}
-  - {name: JP_82929 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)af8f3e6:82919}, udp: true}
-  - {name: JP_23622 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: JP_31859 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
-  - {name: JP_30743 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f478f13:54448}, udp: true}
-  - {name: JP_138218 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: JP_6193 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: JP_58996 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
-  - {name: JP_65870 @WangCai_1 2, server: 120.132.21.219, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
-  - {name: JP_16569 @WangCai_1 2, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)df1fab2:16569}, udp: true}
-  - {name: JP_50307 @WangCai_1, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c68b799:50307}, udp: true}
-  - {name: JP_142593 @WangCai_1, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)956f2ba:142593}, udp: true}
-  - {name: JP_23622 @WangCai_1 3, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: JP_120404 @WangCai_1 2, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4fda908:120404}, udp: true}
-  - {name: JP_136383 @WangCai_1 2, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)5238088:136383}, udp: true}
-  - {name: JP_73362 @WangCai_1 3, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
-  - {name: JP_16708 @WangCai_1, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c27821f:16708}, udp: true}
-  - {name: JP_30743 @WangCai_1 3, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f1db81e:30743}, udp: true}
-  - {name: JP_111548 @WangCai_1, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f1f3227:111548}, udp: true}
-  - {name: JP_6193 @WangCai_1 3, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: JP_55476 @WangCai_1, server: 172.105.230.133, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)9c5b8dc:55476}, udp: true}
-  - {name: JP_82929 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)af8f3e6:82919}, udp: true}
-  - {name: JP_23622 @WangCai_1 4, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: JP_82897 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)12a00c4:82897}, udp: true}
-  - {name: JP_31859 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
-  - {name: JP_65870 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
-  - {name: JP_30743 @WangCai_1 4, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f478f13:54448}, udp: true}
-  - {name: JP_138218 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: JP_73362 @WangCai_1 4, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
-  - {name: JP_58996 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
-  - {name: JP_29306 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)feec8af:29306}, udp: true}
-  - {name: JP_130032 @WangCai_1 2, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)9eb64b8:130032}, udp: true}
-  - {name: JP_145794 @WangCai_1 3, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
-  - {name: JP_6193 @WangCai_1 4, server: 18.177.142.32, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: JP_6193 @WangCai_1 5, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: JP_145794 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
-  - {name: JP_23622 @WangCai_1 5, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: JP_130032 @WangCai_1 3, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)9eb64b8:130032}, udp: true}
-  - {name: JP_73362 @WangCai_1 5, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
-  - {name: JP_29306 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)feec8af:29306}, udp: true}
-  - {name: JP_82897 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)12a00c4:82897}, udp: true}
-  - {name: JP_30743 @WangCai_1 5, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f478f13:54448}, udp: true}
-  - {name: JP_31859 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)082f26a:31859}, udp: true}
-  - {name: JP_82929 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)af8f3e6:82919}, udp: true}
-  - {name: JP_65870 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
-  - {name: JP_58996 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
-  - {name: JP_138218 @WangCai_1 4, server: 18.179.16.135, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: JP_145794 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c9d93ec:145794}, udp: true}
-  - {name: JP_29306 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)feec8af:29306}, udp: true}
-  - {name: JP_82897 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)12a00c4:82897}, udp: true}
-  - {name: JP_73362 @WangCai_1 6, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)a7eb96c:73362}, udp: true}
-  - {name: JP_82929 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)af8f3e6:82919}, udp: true}
-  - {name: JP_65870 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)c563b0d:65870}, udp: true}
-  - {name: JP_130032 @WangCai_1 4, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)9eb64b8:130032}, udp: true}
-  - {name: JP_138218 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)221260eea:138218}, udp: true}
-  - {name: JP_30743 @WangCai_1 6, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)f478f13:54448}, udp: true}
-  - {name: JP_6193 @WangCai_1 6, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)4a81070:6193}, udp: true}
-  - {name: JP_23622 @WangCai_1 6, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)03041b0:23622}, udp: true}
-  - {name: JP_58996 @WangCai_1 5, server: 42.240.132.83, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@WangCai_1)49bda1d:58996}, udp: true}
+  - {name: JP_70fa @WangCai_1, server: 6a70e24.he.gladns.com, port: 3306, type: trojan, password: 70face6dd320ea29, sni: 6a70e24.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_7b06 @WangCai_1, server: 4e23089.hd.gladns.com, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: 4e23089.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_b09d @WangCai_1, server: 034e079.hd.gladns.com, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: 034e079.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_36fe @WangCai_1, server: 6a70e24.he.gladns.com, port: 3306, type: trojan, password: 36fe28a331638747, sni: 6a70e24.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8b47 @WangCai_1, server: 6ca483c.hd.gladns.com, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: 6ca483c.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_b09d @WangCai_1 2, server: 6ca483c.hd.gladns.com, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: 6ca483c.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_7b06 @WangCai_1 2, server: 034e079.hd.gladns.com, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: 034e079.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_b09d @WangCai_1 3, server: 49dafd9.hd.gladns.com, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: 49dafd9.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8b47 @WangCai_1 2, server: 603b827.hd.gladns.com, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: 603b827.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_1822 @WangCai_1, server: 6a70e24.hd.gladns.com, port: 3306, type: trojan, password: 182228812d1e0f23, sni: 6a70e24.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_faf4 @WangCai_1, server: 49dafd9.hd.gladns.com, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: 49dafd9.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_6c8b @WangCai_1, server: 1df8ebe.hd.gladns.com, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: 1df8ebe.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_b84d @WangCai_1, server: 6a70e24.hd.gladns.com, port: 3306, type: trojan, password: b84d16a244460e09, sni: 6a70e24.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8a1a @WangCai_1, server: 7bedcef.hd.gladns.com, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: 7bedcef.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_7b06 @WangCai_1 3, server: 85f2927.hd.gladns.com, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: 85f2927.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_71bb @WangCai_1, server: 0ff2d17.hd.gladns.com, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: 0ff2d17.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8a53 @WangCai_1, server: 49dafd9.hd.gladns.com, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: 49dafd9.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8a1a @WangCai_1 2, server: 0faffd7.he.gladns.com, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: 0faffd7.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_0cc6 @WangCai_1, server: 5e5b076.he.gladns.com, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: 5e5b076.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_70fa @WangCai_1 2, server: 9f2bce0.he.gladns.com, port: 3306, type: trojan, password: 70face6dd320ea29, sni: 9f2bce0.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_7b06 @WangCai_1 4, server: 5e5b076.he.gladns.com, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: 5e5b076.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_70fa @WangCai_1 3, server: 5248af9.hd.gladns.com, port: 3306, type: trojan, password: 70face6dd320ea29, sni: 5248af9.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_26a6 @WangCai_1, server: be759c5.hd.gladns.com, port: 3306, type: trojan, password: 26a663656e575c0b, sni: be759c5.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_0cc6 @WangCai_1 2, server: 0603dc7.hd.gladns.com, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: 0603dc7.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_d020 @WangCai_1, server: 603b827.hd.gladns.com, port: 3306, type: trojan, password: d02058f4f819dced, sni: 603b827.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_36fe @WangCai_1 2, server: 85f2927.hd.gladns.com, port: 3306, type: trojan, password: 36fe28a331638747, sni: 85f2927.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8a53 @WangCai_1 2, server: 8d84b7d.hd.gladns.com, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: 8d84b7d.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_faf4 @WangCai_1 2, server: 6a70e24.hd.gladns.com, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: 6a70e24.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_8b47 @WangCai_1 3, server: 0603dc7.hd.gladns.com, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: 0603dc7.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_7b06 @WangCai_1 5, server: 5248af9.he.gladns.com, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: 5248af9.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_d020 @WangCai_1 2, server: 2463d20.hd.gladns.com, port: 3306, type: trojan, password: d02058f4f819dced, sni: 2463d20.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_1822 @WangCai_1 2, server: 0603dc7.he.gladns.com, port: 3306, type: trojan, password: 182228812d1e0f23, sni: 0603dc7.he.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_71bb @WangCai_1 2, server: 034e079.hd.gladns.com, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: 034e079.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_b09d @WangCai_1 4, server: 5a0122e.hd.gladns.com, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: 5a0122e.hd.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: JP_dc2d @WangCai_1, server: 7bedcef.hd.gladns.com, port: 3306, type: trojan, password: dc2d9db59868ba6b, sni: 7bedcef.hd.gladns.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -368,88 +180,41 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -460,263 +225,122 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -732,88 +356,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_29306 @WangCai_1
-      - JP_23622 @WangCai_1
-      - JP_136383 @WangCai_1
-      - JP_82897 @WangCai_1
-      - JP_73362 @WangCai_1
-      - JP_123597 @WangCai_1
-      - JP_30513 @WangCai_1
-      - JP_30743 @WangCai_1
-      - JP_82929 @WangCai_1
-      - JP_58996 @WangCai_1
-      - JP_16569 @WangCai_1
-      - JP_6193 @WangCai_1
-      - JP_54080 @WangCai_1
-      - JP_65870 @WangCai_1
-      - JP_120404 @WangCai_1
-      - JP_36403 @WangCai_1
-      - JP_138218 @WangCai_1
-      - JP_145794 @WangCai_1
-      - JP_31859 @WangCai_1
-      - JP_82897 @WangCai_1 2
-      - JP_29306 @WangCai_1 2
-      - JP_73362 @WangCai_1 2
-      - JP_145794 @WangCai_1 2
-      - JP_130032 @WangCai_1
-      - JP_82929 @WangCai_1 2
-      - JP_23622 @WangCai_1 2
-      - JP_31859 @WangCai_1 2
-      - JP_30743 @WangCai_1 2
-      - JP_138218 @WangCai_1 2
-      - JP_6193 @WangCai_1 2
-      - JP_58996 @WangCai_1 2
-      - JP_65870 @WangCai_1 2
-      - JP_16569 @WangCai_1 2
-      - JP_50307 @WangCai_1
-      - JP_142593 @WangCai_1
-      - JP_23622 @WangCai_1 3
-      - JP_120404 @WangCai_1 2
-      - JP_136383 @WangCai_1 2
-      - JP_73362 @WangCai_1 3
-      - JP_16708 @WangCai_1
-      - JP_30743 @WangCai_1 3
-      - JP_111548 @WangCai_1
-      - JP_6193 @WangCai_1 3
-      - JP_55476 @WangCai_1
-      - JP_82929 @WangCai_1 3
-      - JP_23622 @WangCai_1 4
-      - JP_82897 @WangCai_1 3
-      - JP_31859 @WangCai_1 3
-      - JP_65870 @WangCai_1 3
-      - JP_30743 @WangCai_1 4
-      - JP_138218 @WangCai_1 3
-      - JP_73362 @WangCai_1 4
-      - JP_58996 @WangCai_1 3
-      - JP_29306 @WangCai_1 3
-      - JP_130032 @WangCai_1 2
-      - JP_145794 @WangCai_1 3
-      - JP_6193 @WangCai_1 4
-      - JP_6193 @WangCai_1 5
-      - JP_145794 @WangCai_1 4
-      - JP_23622 @WangCai_1 5
-      - JP_130032 @WangCai_1 3
-      - JP_73362 @WangCai_1 5
-      - JP_29306 @WangCai_1 4
-      - JP_82897 @WangCai_1 4
-      - JP_30743 @WangCai_1 5
-      - JP_31859 @WangCai_1 4
-      - JP_82929 @WangCai_1 4
-      - JP_65870 @WangCai_1 4
-      - JP_58996 @WangCai_1 4
-      - JP_138218 @WangCai_1 4
-      - JP_145794 @WangCai_1 5
-      - JP_29306 @WangCai_1 5
-      - JP_82897 @WangCai_1 5
-      - JP_73362 @WangCai_1 6
-      - JP_82929 @WangCai_1 5
-      - JP_65870 @WangCai_1 5
-      - JP_130032 @WangCai_1 4
-      - JP_138218 @WangCai_1 5
-      - JP_30743 @WangCai_1 6
-      - JP_6193 @WangCai_1 6
-      - JP_23622 @WangCai_1 6
-      - JP_58996 @WangCai_1 5
+      - JP_70fa @WangCai_1
+      - JP_7b06 @WangCai_1
+      - JP_b09d @WangCai_1
+      - JP_36fe @WangCai_1
+      - JP_8b47 @WangCai_1
+      - JP_b09d @WangCai_1 2
+      - JP_7b06 @WangCai_1 2
+      - JP_b09d @WangCai_1 3
+      - JP_8b47 @WangCai_1 2
+      - JP_1822 @WangCai_1
+      - JP_faf4 @WangCai_1
+      - JP_6c8b @WangCai_1
+      - JP_b84d @WangCai_1
+      - JP_8a1a @WangCai_1
+      - JP_7b06 @WangCai_1 3
+      - JP_71bb @WangCai_1
+      - JP_8a53 @WangCai_1
+      - JP_8a1a @WangCai_1 2
+      - JP_0cc6 @WangCai_1
+      - JP_70fa @WangCai_1 2
+      - JP_7b06 @WangCai_1 4
+      - JP_70fa @WangCai_1 3
+      - JP_26a6 @WangCai_1
+      - JP_0cc6 @WangCai_1 2
+      - JP_d020 @WangCai_1
+      - JP_36fe @WangCai_1 2
+      - JP_8a53 @WangCai_1 2
+      - JP_faf4 @WangCai_1 2
+      - JP_8b47 @WangCai_1 3
+      - JP_7b06 @WangCai_1 5
+      - JP_d020 @WangCai_1 2
+      - JP_1822 @WangCai_1 2
+      - JP_71bb @WangCai_1 2
+      - JP_b09d @WangCai_1 4
+      - JP_dc2d @WangCai_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11015,4 +10592,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
